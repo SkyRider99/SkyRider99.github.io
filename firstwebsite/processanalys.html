@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html lang="sv">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Hassan El Alaoui</title>
+        <!-- Google Font Raleway -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <!-- FONT AWSOME -->
+        <script src="https://kit.fontawesome.com/1dd2841ba9.js" crossorigin="anonymous"></script>
+        
+        <!-- STILMALL -->
+        <link rel="stylesheet" href="stylesheet.css" type="text/css" /> 
+    </head>
+    
+    <body class="landing">
+        
+        <!-- HEADER -->
+        <header>
+            <div class="logga">
+                 <h1 class="logga-text"><a href="index.html">Hassan</a></h1>
+            </div>
+            
+            <ul class="nav">
+                <li><a href="om_mig.html">Om mig</a></li>
+                <li><a href="processanalys.html">Processanalys</a></li>
+                <li><a href="#">Showcase</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        
+        </header>
+        <!-- /HEADER -->
+        
+        <!-- BANER -->
+        <section id="banner" class="wrapper">
+        <h2>Hassan's Processanalys</h2>
+        <p>Här har ni min processanalys, do enjoy ;)</p>
+        </section>
+        <!-- End Banner -->
+        
+        <!-- INNEHÅLL/TEXT -->
+        <div id="wrapper_3">
+            <div class="kolumn_5">
+            
+                <!--Text-->
+                
+                <h3>Processanalys</h3>
+                <h4>Headern</h4>
+                <p>Till att börja med så valde jag att använda HTML 5 över till exempel XHTML därför att det finns mycket mer val att välja mellan i HTML 5. Det vill säga html 5 erbjuder mycket mer än vad XHTML gör som till exempel drag and drop där användaren kan dra och släppa element från en plats på hemsidan till en annan på samma hemsida, en annan ny grej som HTML 5 erbjuder är då header, footer och section som har addats in.</p>
+
+                <p>Men det är inte bara allt med HTML 5 så kom det mer med i paketet så som syntaxer, attributes och events med hjälp av JavaScript, samt så är den snabb och anpassar sig till användaren. Bort sett från det så är HTML 5 den mest använda HTML språk i daggs läget och är rekommenderat för ny börjare inom webbdesign, precis som Aman Goel (2020) skriver i sin artikel.</p>
+
+                <p>Sedan i HTML taggen så valde jag att språket på sidan är i svenska därför att när någon tittar på min kod eller när hemsidan läser av min kod så vet den att hemsidan är i svenska. Efter det skapade jag en head tagg och i den så började jag med att skriva en meta charset utf-8 därför att jag deklarerar till webbbrowsern att använda UTF-8 karaktär kodning som i sig är en metod att konvertera karaktärer till maskin läs bar kod. Efter det skrev jag en title tagg och skrev mitt namn i den, för att det ska synas tydligt vem sidan är gjord av för mina lärare.</p> 
+
+                <p>Sedan länkade jag en Google font till mina sidor under title taggen i head taggen, det går att länka in fonter via CSS som @font-face CSS men det har vi inte jobbat med i kursen och kommer senare och ja, det är bättre att länka den via CSS för att det blir mindre laddningstid osv. Men jag valde att länka den i html koden för att det är det snabbaste och enklaste metoden. Jag länkade också till font awsome för att kunna adda in ikoner till min hemsida men jag använde inte den, men den finns där om det skulle behövas adda in ikoner till hemsider i fram tiden dvs för att göra det enklare att navigera runt hemsidan eller om man vill locka besökarens intresse/hänvisa till något i hemsidan med tanken av responsiv design, precis som Kevin Fouche (2018) skriver i sin blogg.</p> 
+
+                <p>Till slut länkade jag min stilmall därför att det är enklast och snabbast att länka den i html koden, det finns något som kallas för external stylesheets men det stylesheets som är redan färdiga men jag vill själva designa hur min sida ska se ut och därför så använder jag en egen stylesheet och länkar in den via html koden.</p> 
+
+                <h4>Body/Header</h4>
+                <p>Nu började jag med min header dvs min header meny och allt som ska vara i min header. Jag skapade en body tagg och gav den klassen landning därför att om jag skulle vilja nå min body eller göra något specifikt med den så kan jag lätt nå den. Plus det är också för att signalera att här ska man landa när man kommer till sidan.</p>
+
+                <p>Efter det så skapade jag en header element och direkt efter så skapade jag en div klass och gav den namnet logga för att på ett bättre sätt kunna nå till min logga om jag skulle vilja placera runt den eller ändra loggans storlek eller ändra min logga totalt osv. Sen i den diven skapade jag en H1 element och gav den klassen logga-text därför att så både mig själv eller någon annan som läser min kod kan förstå vilken typ av logga det är och för att kunna nå just min H1 loggan och via CSS direkt ändra typsnittet eller storlek, position, hur den ser ut eller färg osv.</p>
+
+                <p>Sedan började jag med navigation baren (Navigation meny) och skapade en ul elementklass och kallade den för nav (förkortning för navigation), varför jag använde UL element? Jo, därför att från en semantic syn är den mest appropriate markup, då länkarna/menyoptions innehåller en lista av samma innehåll precis som W3 (2017) skriver i sin artikel. En annan anledning är då förutom browsersupport, är då accessibility. När en skärmläsare stöter på en ul, så kan den berätta antal nummer av element i den listan till användaren. Detta är ganska använd bart för att den då låter användaren att bestämma om skärmläsaren ska läsa upp hela listan eller skippa den. Detta skulle inte gå om man använde divar eller li element för navigationen.</p> 
+
+                <p>Så i UL listan så har jag skapat li element som då är min navigation bar/”knappar”. Med hjälp av a href= så länkade jag till mina andra html sidor så när man trycker sedan på knapparna så kommer man till dem andra sidor i hemsidan, och med detta så är min navigation bar och börjar nu med min CSS.</p>
+
+                <p>Nu går jag in i CSS filen och börjar koda min header genom att ge den en bakgrundsfärg svart därför att våra ögon är ganska bekväma med mörkare färger och speciellt när det kommer till skärmar. Samtidigt om bakgrunden är svart så sticker menyvalen mycket bättre och blir tydligare att se. Men också för att den ska visuellt gå bort från vägen när besökaren koncentrerar på innehållet, precis som Adrianh (2012) skriver i sin respons.</p> 
+
+                <p>Jag gav header en höjd av 66px därför att jag ansåg det vara den bästa höjden efter jag har experimenterat med olika värden. Efter det så använde jag float för att floata loggan till vänster av header, därför att med hjälp av float så kan jag snabbt och enkelt kan placera runt min logga där exakt jag vill ha den. Plus float är supportad av webbläsare som finns och har 97.27% använder float precis som caniuse.com (2020) skriver i sin sida.</p> 
+
+                <p>Jag sen gick över till body elementen och började koda och gav en 0px både i padding och margin samt * bord sizing därför att hemsidan alltid har en padding och margin värde som inte syns så genom att göra detta kan jag ta bort dem så att min header inte har några gaps över eller vid sidorna. Samt gav jag bakgrundsfärg vit, och länkade min font här som är Raleway från Google fonts om det inte går att använda så valde jag Arial, Helvetica samt sanserif därför det finns vissa fall när webbmotorn inte kan supportera fonten så kan hemsidan vissa textinnehållet i en annan font som är mer vanlig i hemsidor då chansen är större att dem supporterar till exempel Arial eller Helvetica. Jag valde att texten på hemsidan ska vara röd därför att den passade bäst in och synders bäst med svart bakgrund.</p>
+
+                <p>Sen började jag med min banner dvs min hero bild. Jag skapade en section element där jag jag gav en id av namnet banner och en klass av namnet wrapper, därför att jag kommer ha bara 1 banner så det är därför jag gav den en id då det får bara vara 1 id namn och det får inte vara 2 id med samma namn. Sedan varför jag använde en klass för wrapper är därför att jag kommer skapa mer än en wrapper i min hemsida så jag kan inte ha den som en id så jag valde gå med klass då man kan ha flera stycken klasser av samma namn. Varför banner och wrapper som namn? Jo, för att kunna komma ihåg vad id banner var för något då hero bilden och klassen wrapper är då wrappern till bannern och så att någon annan kan på ett lätt sätt förstå min kod.</p> 
+
+                <p>Under den så skapade jag en h2 element för rubriken och varför jag använde h2 istället för till exempel h1 är att h1 är ett huvud rubrik/loggan och nästa steg ner är h2 precis som Patrik (2020) sa i ett zoommöte. Under den så skapade jag en p element för där jag har min text som ska stå i bannern. Jag valde att placera min h2 rubrik och text centralt i bilden därför att det blir det första saken som kommer att fånga upp besökarens uppmärksamhet. Jag använde också i display block för att inget ska visas höger/vänster sida av min text och rubrik. Jag gav den också en border radius därför att jag ville ha lite luft så att inte allt ser ganska trångt ut.</p> 
+
+                <p>Sedan under banner id i CSS så kodade jag några grejer till min Hero bild, där jag länkade in min Hero bild med hjälp av background image och varför jag gjorde så är för att tala om webbmotorn att detta är en bakgrounds bild och så att jag kan lägga element på den. Men en annan anledning är för att den ska kunna stretcha sig över hela header av sidan, samt den hjälper med snabbare laddningstid precis som System PAUSE (2020) skriver.</p>
+
+                <p>Sedan med hjälp av background color och background blend mode så ger jag bilden ett grått filter för att få den gå ihop med resten av sidans färgfrekvens. Jag gav bilden en top centerposition med hjälp av background position, sedan med hjälp av background attachent fixed kan jag få element som ligger på bilden att ligga kvar där utan att glida i väg när man till exempel minskar sidans storlek. Sen använde jag text align center för att kunna få min text bli centrerad.</p>
+
+                <p>Sen skapade jag en tre divar och gav dem en klass med namnen kolumn_1, Kolumn_2, Kolumn_3. Under dem så länkade jag bilderna som ska vara i toppen av kolumnerna med hjälp av img elementet. Varför jag gjorde så? Jo, därför att genom att skapa tre divar så har varje kolumn sin egen div med en klass och på så sätt kunna nå dem direkt och placera runt dem. Jag valde då att använda Grid för placera mina kolumner i hemsidan och med hjälp av att jag skapade divar och klasser till mina kolumner kan jag göra detta. Varför jag valde Grid istället för float? Jo, därför att med grids kan jag snabbt och enkelt dela upp/lägga ut alla mina kolumner precis som jag vill med bra mellan rum/avstånd. Det kommer också se organiserat ut som hjälper att vissa hemsidan mer pålitlig och användbar precis som Nick Babich (2017) skriver i sin artikel. Men man ska inte glömma också att Grid är ganska responsiv och kan lätt anpassa sig efter skärmen storlek, medan om jag skulle använt float skulle jag behöva koda lite mer för att anpassa den efter skärmstorlek.</p>
+
+                <p>Jag ville också använda Grid för att kunna anpassa innehållet i kolumnerna dvs med hjälp av Grid kan man göra så att kolumnernas höjd/bredd ökar eller minskar beroende på hur mycket innehåll jag har i kolumnerna. Detta gjorde jag med hjälp av Grid template columns för att skapa 3 lika stora kolumner bredvid varandra. Sen med hjälp av Grid auto rows för att kolumnerna ska kunna anpassa sin storlek efter hur mycket innehåll dem har.</p> 
+
+                <p>Sen med började jag koda för bilderna som ska vara toppen av kolumnerna, jag gav dem position relative därför att dem ska kunna på ett lätt sätt ändra bildernas position från sina relative position precis som W3schools (n.d.) skriver i sin artikel. Sen använde jag border radius 50% och border därför att på så sätt kan jag skapa en rund ram runt bilderna där 50% är vinklarnas ”böjning” och border för att bestämma hur tjockt ramen ska vara då jag valde 20px och gav en färg av svart.</p>
+
+                <h4>Footer</h4>
+                <p>Här skapade jag en div med id footer därför att det finns inte mer än 1 footer så jag därför skapade en id för footern. I CSS så valde jag att min footer ska vara en Grid och detta gjorde jag genom att använda mig desplay Grid. Varför grid? Jo, därför att på så sätt kan jag skapa 3 lika stora delar och så att jag kan snabbt och enkelt placera runt min information i dem. Med Grid kan jag enkelt flytta och ändra på min footer, samt Grid är perfekt för enkla layouts då det inte är super avancerat struktur på footer då kanske skulle man kunna använda sig av float. Nu för tiden blir Grid mer populärt och används mer och mer i hemsidor för att skapa layouts och positionerna sina element på ett snyggt och semantiskt sätt. Traversy Media (2017) nämner i sin video att från Mars 2017 så är Grid supportad av alla webbläsare.</p> 
+
+                <p>Under min id footer skapade jag tre klasser, adress, telefon och email för att kunna på ett bättre sätt kunna ändra deras storlek eller position eller om jag vill ändra något innehåll i bara just 1 av klasserna utan att påverka de andra. Det är därför jag skapade 3 klasser med varsin information och med hjälp av Grid kan jag dela upp min sidfot i 3 lika stora delar.</p> 
+
+                <p>Med hjälp av Grid så använde jag mig av grid auto rows därför att på så vis kan jag anpassa min sidfot höjd och storlek generellt beroende på hur mycket text eller element det finns där automatisk utan att behöva gå in själv och ändra på sidfotens höjd eller bredd som då sparar tid för mig och håller sig snyggt utan att få massor av overflow. Jag använde också text align för att få min text centrerad i ”container”/div klass.</p>
+
+                <h4>Övrigt</h4>
+                <p>Här är allt annat jag har gjort, efter jag var klar med sidfoten så började jag med Media Queries därför att med Media Queries kan jag anpassa min hemsida utseende efter skärmstorleken då inte alla sitter framför en dator och vissa använder mobilen till exempel, och därför måste jag anpassa min hemsida så att den ser bra ut på olika typer av skärmstorlekar då responsive design är ingen luxery men en måste i daggs läget, precis som MDN web docs (2020) skriver i sin artikel.</p>
+
+                <p>Så min första storlek är då anpassad för IPADS eller paddor skärmstorlek och valde att göra det mellan 800px till 751px, därför att jag gick in och inspekterade min hemsida och valde IPAD som review enhet och det var en bredd på 768px precis som Kiosk pro (2019) skriver i sin artikel. Så jag bestämde mig för att gå mellan 800px – 751px då det kan finnas gamlare Ipads med mindre skärm bredd och Note mobiler som är en storlek mellan Ipads och smarthphones. Medan 750px och mindre fick vara mobilskärm storlek, för att det är bara mobiler som har små skärmar i den punkten.</p>
+
+                <p>Sedan satte jag min header som position relative därför att jag ville ändra positionen av mitt nav bar från vänstra hörnet till vänster nedre center av header. Varför just position relative är så att jag kan flytta mitt nav bar från ursprungliga position till en annan med hjälp av Media queries från en relativ position till den normala positionen. På så sätt kan jag placera/flytta mitt nav bar upp, höger, ner och vänster från dens. relativa position. Jag ger min ul en bredd på 100% så att den kan sträcka sig över hela skärmen, precis som i mockupen. Sen använda jag mig av display block och position absolute därför att på så sätt kan jag få en till exempel en p element att ta hela bredden och på så sätt kan jag få en meny under loggan som tar hela bredden, precis som W3schools (n.d.) skriver i sin artikel. Jag använde mig av position absolute därför att på så sätt kan jag ta ut min element/dokument från dokumentets flöde dvs att den tar inte längre upp plats som static och relative gör, och på så sätt kan jag få mitt nav bar position vara absolute placerad på sin plats till den närmaste föräldrar med position relative som value. Precis som Zellwk (2014) skriver i sin artikel.</p>
+
+                <p>Med hjälp av display grid så kan jag använda mig av grid template areas därför att på så sätt kan jag sortera mina kolumner på den ordningen jag vill och med hjälp av klasserna jag gav mina kolumner (kolumn_1 – 4) så kan jag nå till just den kolumnen jag vill ska stå först och ordna dem samt bestämma hur mycket plats dem kommer ta upp i hemsidan, precis som Rachel Andrew (2020) skriver i sin artikel.</p> 
+
+                <p>Media print använde jag därför att på så sätt kan jag ta bort det som man inte behöver ha med i sin utskrift dvs bilder som har inget med texten att göra ska tas bort och till exempel menyn och Hero bilden ska inte vara med i utskriften då inte har någon relevant till innehållet av hemsidan. Så med mediaprint kan jag också ändra färgen på texten samt font stilen därför att regler för hur text ska se ut på papper är annorlunda än hur den ska se ut på hemsidan, dvs på papper så ska texten vara tydligt och läs bar och det är därför jag ändrade textens färg till svart som är en standard. Men jag har också ändrat text fonten till Georgia då det anses vara en standard font för papper och om det inte finns så är serif en bra font att använda på papper därför att den är lätt och tydligt att läsa, precis som freeCodeCamp.org (2018) säger i sin video.</p> 
+
+                <p>Till sist har jag en Clearfix därför att det fixar till exempel en bugg som händer när två float element floatas är stackade bredvid varandra. Med en clearfix kan vi fixa denna bug och andra buggar som kan uppstå när man använder andra webb motorer, precis som Jay Hoffman (2018) skriver i sin artikel.</p> 
+                
+                <h4>Referenslista</h4>
+                <p>Aman Goel (2020). HTML vs HTML5 vs XHTML: Differences you should know [online]. Tillgängligt: <a href="https://hackr.io/blog/difference-between-html-html5-xhtml">hackr.io</a> [2020-11-07].</p>
+                
+                <p>Kevin Fouche (2028). Top 4 Benefits of Using Icons in Web Design [online]. Tillgängligt: <a href="https://blog.pixelfish.com.au/benefits-of-using-icons-in-web-design">PixelFish</a> [2020-11-07].</p>
+                
+                <p>W3 (2017). HTML 5.2 § 4.4.7 The ul element [online]. Tillgängligt: <a href="https://www.w3.org/TR/html52/grouping-content.html#the-ul-element">W3.org</a> [2020-11-07].</p>
+                
+                <p>Adrianh (2020). Why choose dark navbars? [online]. Tillgängligt: <a href="https://ux.stackexchange.com/questions/28546/why-choose-dark-navbars">StackExchange.com</a> [2020-11-07].</p>
+                
+                <p>Caniuse.com (2020). Can i use float? [online]. Tillgängligt: <a href="https://caniuse.com/?search=float">Caniuse.com</a> [2020-11-07].</p>
+                
+                <p>Patrik Lärare Högskolan Väst (2020).</p>
+                
+                <p>System PAUSE (2020). When to use img vs CSS background-image? [online]. Tillgängligt: <a href="https://stackoverflow.com/questions/492809/when-to-use-img-vs-css-background-image">Stackoverflow.com</a> [2020-11-07].</p>
+                
+                <p>Nick Babich (2017). Building Better UI Designs with Layout Grids [online]. Tillgängligt: <a href="https://www.smashingmagazine.com/2017/12/building-better-ui-designs-layout-grids/">Smashingmagazine.com</a> [2020-11-07].</p>
+                
+                <p>W3schools (2020). CSS Layout - The position Property [online]. Tillgängligt: <a href="https://www.w3schools.com/css/css_positioning.asp">w3schools.com</a> [2020-11-08].</p>
+                
+                <p>CSS Grid Layout Crash Course. (2017). [Youtube]. Traversy Media </p>
+                
+                <p>MDN web docs (2020). Using media queries [online]. Tillgängligt: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">developer.mozilla.org</a> [2020-11-08].</p>
+                
+                <p>Kiosk Pro (2019). Determining screen dimensions for content [online]. Tillgängligt: <a href="https://support.kioskgroup.com/article/660-determining-screen-dimensions-for-content">Kioskgroup.com</a> [2020-11-08].</p>
+                
+                <p>W3schools (2020). CSS display Property [online]. Tillgängligt: <a href="https://www.w3schools.com/cssref/pr_class_display.asp">W3schools.com</a> [2020-11-08].</p>
+                
+                <p>Zellwk (2014). Understanding and Using CSS Positions [online]. Tillgängligt: <a href="https://zellwk.com/blog/css-positions/">zellwk.com</a> [2020-11-08].</p>
+                
+                <p>Rachel Andrew (2020). Understanding CSS Grid: Grid Template Areas [online]. Tillgängligt: <a href="https://www.smashingmagazine.com/understanding-css-grid-template-areas/">smashingmagazine.com</a> [2020-11-08].</p>
+                
+                <p>Print Styles: CSS Tutorial (Day 6 of CSS3 in 30 Days). (2018). [Youtube]. freecodecamp.org</p>
+                
+                <p>Jay Hoffmann (2018). Clearfix: A Lesson in Web Development Evolution [online]. Tillgängligt: <a href="https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/">CSS-Tricks.com</a> [2020-11-08].</p>
+
+
+                </div>   
+                
+        </div>
+         <!-- /INNEHÅLL TEXT -->
+        
+         <!-- FOTTER -->
+         <div id="footer">
+            <div class="adress">
+            <h3>Adress</h3>
+            <p>Sandelsgatan 28</p>
+            <p>115 34 Stockholm</p>
+            </div>
+            
+            <div class="telefon">
+            <h3>Telefon</h3>
+            <p>Tel: 0764526688</p>
+            </div>
+            <div class="email">
+            <h3>E-mail</h3>
+            <p>Hassan@hotmail.com</p>
+            </div>
+         </div>
+         <!-- /FOOTER -->
+    
+    
+    
+    
+    </body>
+
+</html>

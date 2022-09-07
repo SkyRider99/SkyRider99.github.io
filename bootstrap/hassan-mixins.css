@@ -1,0 +1,30 @@
+#welcome-button, #button-left, #button-middle, #button-right {
+  color: aqua;
+  background-color: black;
+  border: 3px solid aqua;
+}
+
+#welcome-button:hover {
+  color: black;
+  background-color: aqua;
+  border: 3px solid black;
+}
+
+#button-left:hover {
+  color: black;
+  background-color: aqua;
+  border: 3px solid black;
+}
+
+#button-middle:hover {
+  color: black;
+  background-color: aqua;
+  border: 3px solid black;
+}
+
+#button-right:hover {
+  color: black;
+  background-color: aqua;
+  border: 3px solid black;
+}
+/*# sourceMappingURL=hassan-mixins.css.map */

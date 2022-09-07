@@ -1,0 +1,31 @@
+@mixin knappar {
+      color: aqua;
+      background-color: black;
+      border: 3px solid aqua;
+}
+
+@mixin knappar-hover {
+      color: black;
+      background-color: aqua;
+      border: 3px solid black;
+}
+
+#welcome-button, #button-left, #button-middle, #button-right {
+     @include knappar; 
+}
+
+#welcome-button:hover {
+     @include knappar-hover;
+}
+
+#button-left:hover {
+     @include knappar-hover;
+}
+
+#button-middle:hover {
+     @include knappar-hover;
+}
+
+#button-right:hover {
+     @include knappar-hover;
+}

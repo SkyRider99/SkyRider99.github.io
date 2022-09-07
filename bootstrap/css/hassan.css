@@ -1,0 +1,38 @@
+
+/*Footer optimering*/
+footer{
+    width: 100%;
+    height: auto;
+}
+
+/*Columnernas Mellanrum*/
+#kort-boxen {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Mellan rum mellan Korten i Kolumnerna*/
+#korten {
+    padding-bottom: 20px;
+}
+
+/*För Videon i about me sidan*/
+#hero_vid {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*Hero bilden höjd och bredd*/
+.hero_img{
+    width: 100%;
+    height: auto;
+}
+
+/*Texten under bilderna*/
+#intext_img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
